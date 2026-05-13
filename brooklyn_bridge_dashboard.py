@@ -7,7 +7,7 @@ st.title("Brooklyn Bridge Pedestrian Dashboard")
 st.subheader("Explore hourly, daily, and weekly pedestrian traffic patterns")
 
 
-df = pd.read_csv("data/brooklyn_bridge_pedestrians.csv")
+df = pd.read_csv("brooklyn_bridge_pedestrians.csv")
 
 df = df.rename(columns={
     "Pedestrians": "pedestrians",
